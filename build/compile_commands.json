@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/abcd/c++-web-scraper/build",
+  "command": "/usr/bin/g++ -DCURL_STATICLIB -DLIBXML_STATIC -isystem /opt/vcpkg/installed/x64-linux/include -isystem /opt/vcpkg/installed/x64-linux/include/libxml2 -g -std=gnu++20 -o CMakeFiles/main.dir/scraper.cpp.o -c /home/abcd/c++-web-scraper/scraper.cpp",
+  "file": "/home/abcd/c++-web-scraper/scraper.cpp"
+}
+]

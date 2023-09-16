@@ -17,7 +17,7 @@ int main()
     // define the user agent for the GET request
     cpr::Header headers = {{"User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"}};
     // make an HTTP GET request to retrieve the target page
-    cpr::Response response = cpr::Get(cpr::Url{"https://scrapeme.live/shop/"}, headers);
+    cpr::Response response = cpr::Get(cpr::Url{"https://brightdata.com/"}, headers);
     
     // parse the HTML document returned by the server
     htmlDocPtr doc = htmlReadMemory(response.text.c_str(), response.text.length(), nullptr, nullptr, HTML_PARSE_NOWARNING | HTML_PARSE_NOERROR);
